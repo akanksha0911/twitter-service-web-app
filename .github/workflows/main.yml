@@ -26,6 +26,9 @@ jobs:
 
     - name: Install dependencies
       run: npm install
+      
+    - name: Run the tests and update snapshots
+      run: npm run test -- -u
 
     - name: Run the tests and generate coverage report
       run: npm test -- --coverage
