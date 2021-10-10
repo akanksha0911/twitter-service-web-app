@@ -1,5 +1,9 @@
 # Getting Started with Twiiter Service app
 
+Demo: http://twitter-service-demo.s3-website-us-east-1.amazonaws.com/
+
+<img width="1792" alt="Screen Shot 2021-10-10 at 1 25 04 AM" src="https://user-images.githubusercontent.com/77387431/136688392-9b3a3f16-ef9d-4ed6-a4af-0ffa9fb35840.png">
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Deployment
 Step 1 aws configure 
