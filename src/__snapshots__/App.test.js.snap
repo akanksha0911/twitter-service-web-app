@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders all the components correctly 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "borderStyle": "groove",
+      }
+    }
+  >
+    <div
+      className="sc-bdfBQB ezrTWr"
+    >
+       TWITTER SERVICE
+    </div>
+    <div
+      className="sc-hKgJUU eTeyty"
+    >
+      <button
+        className="sc-gsTEea kYNbiI"
+      >
+        ACTION BUTTON
+      </button>
+      <textarea
+        className="sc-dlfnuX zqRWw"
+        value="INPUT TEXTAREA"
+      />
+      <textarea
+        className="sc-dlfnuX zqRWw"
+        value="SCROLLABLE OUTPUT TEXTAREA/RESPONSE"
+      />
+    </div>
+    <div
+      className="sc-eCstlR bTJNYb"
+    />
+    <div
+      style={
+        Object {
+          "marginBottom": "20px",
+        }
+      }
+    >
+      <b>
+         Please select from the options below and refer to the one above for illustration/usage
+      </b>
+    </div>
+    <div
+      className="sc-eCstlR bTJNYb"
+    />
+    <div
+      className="sc-hKgJUU eTeyty"
+    >
+      <button
+        className="sc-gsTEea kYNbiI"
+        onClick={[Function]}
+      >
+        SEND Tweet
+      </button>
+      <textarea
+        className="sc-dlfnuX zqRWw"
+        onChange={[Function]}
+        placeholder="please enter text and press button to send text as tweet. wait upto 1 minute for it to be shown on the right embedded twitter"
+      >
+        
+      </textarea>
+      <textarea
+        className="sc-dlfnuX zqRWw"
+        value=""
+      />
+    </div>
+    <div
+      className="sc-hKgJUU eTeyty"
+    >
+      <button
+        className="sc-gsTEea kYNbiI"
+        onClick={[Function]}
+      >
+        GET Tweet
+      </button>
+      <textarea
+        className="sc-dlfnuX zqRWw"
+        onChange={[Function]}
+        placeholder="please enter id of the tweet you want to retrieve"
+      />
+      <textarea
+        className="sc-dlfnuX zqRWw"
+        value=""
+      />
+       
+    </div>
+    <div
+      className="sc-hKgJUU eTeyty"
+    >
+      <button
+        className="sc-gsTEea kYNbiI"
+        onClick={[Function]}
+      >
+        DELETE Tweet
+      </button>
+      <textarea
+        className="sc-dlfnuX zqRWw"
+        onChange={[Function]}
+        placeholder="please enter id of tweet you want to delete"
+      />
+      <textarea
+        className="sc-dlfnuX zqRWw"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "borderStyle": "groove",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "borderStyle": "groove",
+          "fontWeight": "bold",
+          "width": "404px",
+        }
+      }
+    >
+        Twitter feed (new tweets can take upto a minute to appear)
+    </div>
+    <div />
+  </div>
+</div>
+`;
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "borderStyle": "groove",
+      }
+    }
+  >
+    <div
+      className="sc-bdfBQB ezrTWr"
+    >
+       TWITTER SERVICE
+    </div>
+    <div
+      className="sc-hKgJUU eTeyty"
+    >
+      <button
+        className="sc-gsTEea kYNbiI"
+      >
+        ACTION BUTTON
+      </button>
+      <textarea
+        className="sc-dlfnuX zqRWw"
+        value="INPUT TEXTAREA"
+      />
+      <textarea
+        className="sc-dlfnuX zqRWw"
+        value="SCROLLABLE OUTPUT TEXTAREA/RESPONSE"
+      />
+    </div>
+    <div
+      className="sc-eCstlR bTJNYb"
+    />
+    <div
+      style={
+        Object {
+          "marginBottom": "20px",
+        }
+      }
+    >
+      <b>
+         Please select from the options below and refer to the one above for illustration/usage
+      </b>
+    </div>
+    <div
+      className="sc-eCstlR bTJNYb"
+    />
+    <div
+      className="sc-hKgJUU eTeyty"
+    >
+      <button
+        className="sc-gsTEea kYNbiI"
+        onClick={[Function]}
+      >
+        SEND Tweet
+      </button>
+      <textarea
+        className="sc-dlfnuX zqRWw"
+        onChange={[Function]}
+        placeholder="please enter text and press button to send text as tweet. wait upto 1 minute for it to be shown on the right embedded twitter"
+      >
+        
+      </textarea>
+      <textarea
+        className="sc-dlfnuX zqRWw"
+        value=""
+      />
+    </div>
+    <div
+      className="sc-hKgJUU eTeyty"
+    >
+      <button
+        className="sc-gsTEea kYNbiI"
+        onClick={[Function]}
+      >
+        GET Tweet
+      </button>
+      <textarea
+        className="sc-dlfnuX zqRWw"
+        onChange={[Function]}
+        placeholder="please enter id of the tweet you want to retrieve"
+      />
+      <textarea
+        className="sc-dlfnuX zqRWw"
+        value=""
+      />
+       
+    </div>
+    <div
+      className="sc-hKgJUU eTeyty"
+    >
+      <button
+        className="sc-gsTEea kYNbiI"
+        onClick={[Function]}
+      >
+        DELETE Tweet
+      </button>
+      <textarea
+        className="sc-dlfnuX zqRWw"
+        onChange={[Function]}
+        placeholder="please enter id of tweet you want to delete"
+      />
+      <textarea
+        className="sc-dlfnuX zqRWw"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "borderStyle": "groove",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "borderStyle": "groove",
+          "fontWeight": "bold",
+          "width": "404px",
+        }
+      }
+    >
+        Twitter feed (new tweets can take upto a minute to appear)
+    </div>
+    <div />
+  </div>
+</div>
+`;

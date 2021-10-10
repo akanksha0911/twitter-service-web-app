@@ -4,12 +4,20 @@ import {useState} from "react";
 import Axios from 'axios';
 import {TwitterTimelineEmbed} from "react-twitter-embed";
 
+const StyledHeader = styled.div`
+  font-size: 50px;
+  align-content: center;
+  text-align: center;
+  font-weight: bolder;
+  color: cornflowerblue;
+  margin-bottom: 21px;`
 const StyledButton = styled.button`
-  width: 20vw;
-  height: 10vh;
+  width: 12vw;
+  height: 7vh;
   background: aliceblue;
   border-radius: 40px;
   margin-top: 25px;
+  margin-right: 40px
 `;
 
 const StyledTextArea = styled.textarea`
@@ -17,14 +25,17 @@ const StyledTextArea = styled.textarea`
   width: 20vw;
   height: 15vh;
   background: aliceblue;
+  margin-right: 20px
+
 
 `;
 const StyledActionArea = styled.div`
   display: inline-flex;
   margin-bottom: 5vh;
+  ;
 `
 const Line = styled.div`
-  border-top: 15px solid grey;
+  border-top: 15px solid #4865bd;
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
@@ -120,16 +131,19 @@ function App() {
     return (
         <>
             <div style={{display: "flex"}}>
-                <div>
+                <div style={{borderStyle: "groove"}}>
+                    <StyledHeader> TWITTER SERVICE</StyledHeader>
                     <StyledActionArea>
                         <StyledButton>ACTION BUTTON</StyledButton>
-                        <StyledTextArea value={'INPUT TEXTAREA'}></StyledTextArea>
-                        <StyledTextArea value={'SCROLLABLE OUTPUT TEXTAREA/RESPONSE'}></StyledTextArea>
+                        <StyledTextArea value={'INPUT TEXTAREA'}/>
+                        <StyledTextArea value={'SCROLLABLE OUTPUT TEXTAREA/RESPONSE'}/>
                     </StyledActionArea>
 
                     <Line>
                     </Line>
+                    <div style={{marginBottom:"20px"}}>
                     <b> Please select from the options below and refer to the one above for illustration/usage</b>
+                    </div>
                     <Line/>
                     <StyledActionArea>
                         <StyledButton onClick={onSendClick}>SEND Tweet</StyledButton>
@@ -138,7 +152,7 @@ function App() {
                             onChange={event => {
                                 setSendTweetInput(event.target.value)
                             }}>{sendTweetInput}</StyledTextArea>
-                        <StyledTextArea value={sendTweetResponse}></StyledTextArea>
+                        <StyledTextArea value={sendTweetResponse}/>
                     </StyledActionArea>
 
 
@@ -148,26 +162,26 @@ function App() {
                             placeholder={'please enter id of the tweet you want to retrieve'}
                             onChange={event => {
                                 setGetTweetInput(event.target.value)
-                            }}></StyledTextArea>
-                        <StyledTextArea value={getTweetResponse}></StyledTextArea> </StyledActionArea>
+                            }}/>
+                        <StyledTextArea value={getTweetResponse}/> </StyledActionArea>
 
 
                     <StyledActionArea>
                         <StyledButton onClick={onDeleteClick}>DELETE Tweet</StyledButton>
                         <StyledTextArea placeholder={'please enter id of tweet you want to delete'} onChange={event => {
                             setRemoveTweetInput(event.target.value)
-                        }}></StyledTextArea>
-                        <StyledTextArea value={removeTweetResponse}></StyledTextArea>
+                        }}/>
+                        <StyledTextArea value={removeTweetResponse}/>
                     </StyledActionArea>
                 </div>
-                <>
-                    Twitter feed (new tweets can take upto a minute to appear)
+                <div style={{borderStyle: "groove"}}>
+                 <div style={{borderStyle: "groove" , width: "404px", fontWeight: "bold"}}>  Twitter feed (new tweets can take upto a minute to appear)</div>
                     <TwitterTimelineEmbed
                         sourceType="profile"
                         screenName="AkankshaRawat09"
                         options={{height: 800}}
                     />
-                </>
+                </div>
             </div>
         </>
     );

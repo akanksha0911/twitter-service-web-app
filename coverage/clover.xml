@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1633852330903" clover="3.2.0">
+  <project timestamp="1633852330903" name="All files">
+    <metrics statements="36" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="1" elements="43" coveredelements="16" complexity="0" loc="36" ncloc="36" packages="1" files="1" classes="1"/>
+    <file name="App.js" path="/Users/akanksha/WebstormProjects/twitter-service-web-app/src/App.js">
+      <metrics statements="36" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="1"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="48" count="5" type="stmt"/>
+      <line num="49" count="4" type="stmt"/>
+      <line num="50" count="4" type="stmt"/>
+      <line num="53" count="4" type="stmt"/>
+      <line num="54" count="4" type="stmt"/>
+      <line num="55" count="4" type="stmt"/>
+      <line num="57" count="4" type="stmt"/>
+      <line num="58" count="0" type="stmt"/>
+      <line num="60" count="0" type="stmt"/>
+      <line num="64" count="0" type="stmt"/>
+      <line num="73" count="0" type="stmt"/>
+      <line num="74" count="0" type="stmt"/>
+      <line num="77" count="0" type="stmt"/>
+      <line num="83" count="4" type="stmt"/>
+      <line num="84" count="0" type="stmt"/>
+      <line num="86" count="0" type="stmt"/>
+      <line num="90" count="0" type="stmt"/>
+      <line num="99" count="0" type="stmt"/>
+      <line num="100" count="0" type="stmt"/>
+      <line num="102" count="0" type="stmt"/>
+      <line num="107" count="4" type="stmt"/>
+      <line num="108" count="0" type="stmt"/>
+      <line num="110" count="0" type="stmt"/>
+      <line num="114" count="0" type="stmt"/>
+      <line num="123" count="0" type="stmt"/>
+      <line num="124" count="0" type="stmt"/>
+      <line num="126" count="0" type="stmt"/>
+      <line num="131" count="4" type="stmt"/>
+      <line num="153" count="0" type="stmt"/>
+      <line num="164" count="0" type="stmt"/>
+      <line num="172" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
