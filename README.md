@@ -1,4 +1,5 @@
 # Getting Started with Twiiter Service app
+![image](https://user-images.githubusercontent.com/77387431/136690701-2be271f9-a70f-495b-af8a-2dd2d433153a.png)
 
 Please refer to DemoTwitterService.mov or access website :
 Demo: http://twitter-service-demo.s3-website-us-east-1.amazonaws.com/
