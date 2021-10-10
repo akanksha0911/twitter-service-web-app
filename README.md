@@ -11,6 +11,7 @@ Step 1 aws configure
 Step 2 yarn build
 
 Step 3 aws s3 sync build/ s3://twitter-service-demo --acl public-read
+
 ## Available Scripts
 
 In the project directory, you can run:
