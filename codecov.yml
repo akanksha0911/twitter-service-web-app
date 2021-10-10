@@ -1,3 +1,4 @@
 ignore:
-  - index.js
-  - "index.*"       # wildcards accepted
+  - "index.js"
+  - "reportWebVitals.js"
+  - "setupTests.js"
