@@ -1,7 +1,12 @@
-# Getting Started with Create React App
+# Getting Started with Twiiter Service app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deployment
+Step 1 aws configure 
 
+Step 2 yarn build
+
+Step 3 aws s3 sync build/ s3://twitter-service-demo --acl public-read
 ## Available Scripts
 
 In the project directory, you can run:
