@@ -11,6 +11,18 @@ Step 1 aws configure
 Step 2 yarn build
 
 Step 3 aws s3 sync build/ s3://twitter-service-demo --acl public-read
+## Resources
+
+### S3 Bucket Files
+<img width="1792" alt="image" src="https://user-images.githubusercontent.com/77387431/136689831-8358e9fb-c376-4811-a3f1-a980c1a4cc65.png">
+
+### S3 Bucket website configuration
+
+<img width="1790" alt="image" src="https://user-images.githubusercontent.com/77387431/136689876-2d2bf08f-3809-4b7b-9ff4-7de832e94817.png">
+
+<img width="1792" alt="image" src="https://user-images.githubusercontent.com/77387431/136689856-fbf55752-f28e-4c90-bfce-741fbd75a112.png">
+
+
 
 ## Available Scripts
 
